@@ -1,0 +1,72 @@
+/* テトリス */
+.board {
+  padding: 30px;
+  background: #ffffff;
+  position: relative;
+  display: flex;
+  gap: 10px;
+}
+
+.block {
+  width: 30px;
+  height: 30px;
+  /* border: 0.1px solid rgba(0, 0, 0, 0.2); */
+}
+  .-i {
+    background: #3498db;
+  }
+  .-o {
+    background: #f1c40f;
+  }
+  .-t {
+    background: #9b59b6;
+  }
+  .-j {
+    background: #1e3799;
+  }
+  .-l {
+    background: #e67e22;
+  }
+  .-s {
+    background: #2ecc71;
+  }
+  .-z {
+    background: #e74c3c;
+  }
+
+  .start-button {
+    background-color: #567a83;
+    border-style: none;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 2px;
+    width: 8rem;
+  }
+  
+  /* マインスイーパー */
+  table.minesweeper-board {
+    margin: 0 auto;
+  }
+  
+  .cell {
+    background-color: #e3e3e3;
+    width: 30px;
+    height: 30px;
+    user-select: none;
+  }
+  
+  .cell--opened {
+    background-color: #c0c0c0;
+  }
+  
+  .cell--started {
+    cursor: pointer;
+  }
+  
+  .cell--unstarted {
+    background-color: #a1c3b5;
+  }
+
+  .bomb {
+    font-size: 50px;
+  }
